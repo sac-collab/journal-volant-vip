@@ -14,7 +14,7 @@
 -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;1,400&family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
 <style>
   :root {
     --cuivre: #9f4f33;
@@ -32,7 +32,8 @@
     --gris: #6f6a5f;
     --gris-doux: #8d8778;
     --serif: "Playfair Display", Georgia, "Times New Roman", serif;
-    --sans: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --texte: "Lora", Georgia, serif;
+  --sans: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   html { background: var(--noir-pur); }
@@ -166,10 +167,10 @@
     background: linear-gradient(90deg, var(--cuivre), var(--cuivre-pale));
     margin-top: 24px;
   }
-  section p { margin: 20px 0; font-weight: 300; }
+  section p { margin: 20px 0; font-weight: 400; font-family: var(--texte); font-size: 18px; line-height: 1.75; }
   section p strong { font-weight: 600; color: var(--noir); }
   .lead {
-    font-family: var(--sans); font-size: 20px; font-weight: 600;
+    font-family: var(--texte); font-size: 21px; font-weight: 500; font-style: italic;
     color: var(--cuivre-profond);
     line-height: 1.6; letter-spacing: .01em;
   }
@@ -326,10 +327,10 @@
     <span class="romain">✦</span>
     <p class="kicker">Le mot de Michel</p>
     <h2>Salut la gang !</h2>
-    <p class="lead">Bienvenue dans le tout premier Volant VIP. Oui, on a enfin notre journal.</p>
-    <p>Pas de cravate, pas de discours plate. Juste les nouvelles de l'équipe, entre nous, comme autour d'un bon café au garage.</p>
-    <p>Ce mois-ci : vos cartes d'affaires (merci Abdel !), les résultats du concours (oui, oui, les prix s'en viennent...), et quelques annonces qui vont vous simplifier la vie.</p>
-    <p>Bonne lecture — et comme toujours, la route est à vous.</p>
+    <p class="lead">Ça y est, on a notre journal ! Le Volant VIP, rien que pour la gang.</p>
+    <p>Pas de cravate, pas de discours plate. Juste ce qui se passe dans l'équipe, les bons coups, et ce qui s'en vient — raconté comme on se le raconterait autour d'un café au garage.</p>
+    <p>Ce mois-ci : vos cartes d'affaires sont arrivées (merci Abdel !), les gagnants du concours sont dévoilés (enfin !), et j'ai deux-trois annonces qui vont vous simplifier la vie.</p>
+    <p>Attachez votre ceinture, bonne lecture !</p>
     <p><strong>— Michel</strong></p>
   </section>
 
@@ -338,7 +339,7 @@
     <span class="romain">I</span>
     <p class="kicker">Annonce</p>
     <h2>Vos cartes d'affaires personnalisées</h2>
-    <p class="lead">Enfin ! Elles sont arrivées — à votre nom, avec vos coordonnées.</p>
+    <p class="lead">Elles sont là ! Vos cartes d'affaires, à votre nom, avec vos coordonnées. La classe !</p>
     <p>Ça a pris du temps... disons qu'elles étaient parties faire un tour de limousine sur la route panoramique !</p>
     <p>Voici un aperçu, recto et verso. C'est la carte d'Abdel&nbsp;:</p>
     <div class="duo">
@@ -362,8 +363,8 @@
     <span class="romain">II</span>
     <p class="kicker">Concours</p>
     <h2>Cartes d'essence&nbsp;: les résultats</h2>
-    <p class="lead">Les gagnants sont connus. Enfin.</p>
-    <p>Oui, le concours s'est terminé en mai... et on est en octobre. Disons que les résultats ont pris la route panoramique, eux aussi.</p>
+    <p class="lead">Roulement de tambour... les gagnants sont dévoilés !</p>
+    <p>Oui, le concours s'est terminé en mai et on est en octobre. Disons que les résultats ont pris la route panoramique, eux aussi — mais ils sont arrivés, et ils valent le détour !</p>
     <div class="noms">
 <p><strong>Avril :</strong> 1er Normand Peterkin (100 $), 2e Michel Dupuis (50 $)</p>
 <p><strong>Mai :</strong> 1er Jean-François Laberge (100 $)</p>
@@ -425,7 +426,7 @@
     <span class="romain">IV</span>
     <p class="kicker">Fêtes</p>
     <h2>Souper de Noël</h2>
-    <p class="lead">Le temps des Fêtes approche à grands pas !</p>
+    <p class="lead">Le temps des Fêtes approche — et cette année, c'est VOUS qui décidez !</p>
     <p>On organise notre <strong>souper de Noël</strong> et on veut VOS idées.</p>
     <p>Envoyez-nous vos <strong>suggestions de restaurant</strong> et vos idées <strong>d'activités</strong> par courriel.</p>
     <p class="citation">C'est votre party — on veut que ça vous ressemble.</p>
